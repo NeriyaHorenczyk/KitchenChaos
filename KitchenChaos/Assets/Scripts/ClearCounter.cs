@@ -38,7 +38,7 @@ public class ClearCounter : MonoBehaviour
 
     }
 
-    public Transform GetKitchenObjectFollowTranform()
+    public Transform GetKitchenObjectFollowTransform()
     {
         return counterTopPoint;
     }

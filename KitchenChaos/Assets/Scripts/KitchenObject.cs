@@ -25,7 +25,7 @@ public class KitchenObject : MonoBehaviour
         }
         clearCounter.SetKitchenObject(this);
 
-        transform.parent = clearCounter.GetKitchenObjectFollowTranform();
+        transform.parent = clearCounter.GetKitchenObjectFollowTransform();
         transform.localPosition = Vector3.zero;
     }
 

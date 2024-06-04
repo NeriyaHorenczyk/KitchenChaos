@@ -180,6 +180,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -2208073781490886671, guid: ef0d71effb11ce049a18c9d961252ba5,
+        type: 3}
+      propertyPath: tomatoPrefab
+      value: 
+      objectReference: {fileID: 7965483075583900991, guid: 3c0490a005a804543b0cb4328cb22b08,
+        type: 3}
+    - target: {fileID: -2208073781490886671, guid: ef0d71effb11ce049a18c9d961252ba5,
+        type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 16613a1d7e8bea14bb4e85a358ef60ed,
+        type: 2}
     - target: {fileID: 4047122924258237605, guid: ef0d71effb11ce049a18c9d961252ba5,
         type: 3}
       propertyPath: m_Name
@@ -832,6 +844,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1335685886 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -2208073781490886671, guid: ef0d71effb11ce049a18c9d961252ba5,
+    type: 3}
+  m_PrefabInstance: {fileID: 177528941}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ce3d60d6fb3df541bca7e3f6968e27c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1388021736
 GameObject:
   m_ObjectHideFlags: 0
@@ -1166,6 +1190,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -2208073781490886671, guid: ef0d71effb11ce049a18c9d961252ba5,
+        type: 3}
+      propertyPath: testing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2208073781490886671, guid: ef0d71effb11ce049a18c9d961252ba5,
+        type: 3}
+      propertyPath: secondClearCounter
+      value: 
+      objectReference: {fileID: 1335685886}
     - target: {fileID: 4047122924258237605, guid: ef0d71effb11ce049a18c9d961252ba5,
         type: 3}
       propertyPath: m_Name
@@ -1189,7 +1223,7 @@ PrefabInstance:
     - target: {fileID: 5241200387222389810, guid: ef0d71effb11ce049a18c9d961252ba5,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.00000038743022
+      value: 0.0000003874302
       objectReference: {fileID: 0}
     - target: {fileID: 5241200387222389810, guid: ef0d71effb11ce049a18c9d961252ba5,
         type: 3}
